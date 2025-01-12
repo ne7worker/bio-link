@@ -49,23 +49,23 @@ const BioLinkPage = () => {
     };
 
     return (
-        <div dir="rtl" className="min-h-screen font-['Vazirmatn'] bg-gradient-to-b from-pink-50 to-pink-100 p-6">
+        <div dir="rtl" className="min-h-screen font-['Vazirmatn'] bg-gradient-to-b from-blue-50 to-blue-100 p-6">
             <div className="max-w-md mx-auto space-y-8">
                 <div className="text-center">
-                    <div className="w-32 h-32 rounded-full mx-auto mb-4 bg-pink-100 border-4 border-pink-200 flex items-center justify-center">
+                    <div className="w-32 h-32 rounded-full mx-auto mb-4 bg-blue-100 border-4 border-blue-200 flex items-center justify-center">
                         <span className="text-2xl">{profile.name}</span>
                     </div>
                     <h1 className="text-3xl font-bold text-gray-900 mb-2">LEOTECH</h1>
                     <p className="text-xl text-gray-700 mb-6">{profile.bio}</p>
                     
                     <div className="flex justify-center gap-6 mb-8">
-                        <a href={profile.socials.instagram} className="text-pink-500 hover:text-pink-600">
+                        <a href={profile.socials.instagram} className="text-blue-500 hover:text-blue-600">
                             <Instagram size={28} />
                         </a>
-                        <a href={profile.socials.website} className="text-pink-500 hover:text-pink-600">
+                        <a href={profile.socials.website} className="text-blue-500 hover:text-blue-600">
                             <Globe size={28} />
                         </a>
-                        <a href={`mailto:${profile.socials.email}`} className="text-pink-500 hover:text-pink-600">
+                        <a href={`mailto:${profile.socials.email}`} className="text-blue-500 hover:text-blue-600">
                             <Mail size={28} />
                         </a>
                     </div>
