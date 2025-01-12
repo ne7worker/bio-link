@@ -1,27 +1,24 @@
 import React from 'react';
 import { Instagram, Mail, Globe, ExternalLink } from 'lucide-react';
 
-// The LinkCard component properly formatted
 const LinkCard = ({ title, url, description }) => {
     return (
-        <a href={url} className="block bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 border border-gray-100">
+        <a href={url} className="block bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
             <div className="flex justify-between items-center">
-                <div>
-                    <h2 className="font-semibold text-gray-800">{title}</h2>
+                <div className="text-right">
+                    <h2 className="font-bold text-gray-900">{title}</h2>
                     <p className="text-sm text-gray-500">{description}</p>
                 </div>
-                <ExternalLink className="text-gray-400" size={20} />
+                <ExternalLink className="text-gray-400" size={24} />
             </div>
         </a>
     );
 };
 
-// The main BioLinkPage component
 const BioLinkPage = () => {
     const profile = {
-        name: "نام شما",
-        bio: "توضیحات بیوگرافی شما",
-        avatar: "/api/placeholder/120/120",
+        name: "لئوتک",
+        bio: "تکنولوژی برای همه",
         links: [
             {
                 title: "جدیدترین مجموعه",
@@ -40,33 +37,31 @@ const BioLinkPage = () => {
             }
         ],
         socials: {
-            instagram: "https://instagram.com/youraccount",
-            website: "https://yourwebsite.com",
-            email: "hello@yourdomain.com"
+            instagram: "https://instagram.com/_mhtech_",
+            website: "https://ne7worker.github.io/bio-link/",
+            email: "ne7worker@gmail.com"
         }
     };
 
     return (
-        <div dir="rtl" className="min-h-screen font-['Vazirmatn'] bg-gradient-to-b from-pink-50 to-purple-50 p-6">
+        <div dir="rtl" className="min-h-screen font-['Vazirmatn'] bg-gradient-to-b from-pink-50 to-pink-100 p-6">
             <div className="max-w-md mx-auto space-y-8">
                 <div className="text-center">
-                    <img
-                        src={profile.avatar}
-                        alt={profile.name}
-                        className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-                    />
-                    <h1 className="text-2xl font-bold text-gray-800 mb-2">{profile.name}</h1>
-                    <p className="text-gray-600 mb-4">{profile.bio}</p>
+                    <div className="w-32 h-32 rounded-full mx-auto mb-4 bg-pink-100 border-4 border-pink-200 flex items-center justify-center">
+                        <span className="text-2xl">{profile.name}</span>
+                    </div>
+                    <h1 className="text-3xl font-bold text-gray-900 mb-2">MHTECH</h1>
+                    <p className="text-xl text-gray-700 mb-6">{profile.bio}</p>
                     
-                    <div className="flex justify-center gap-4 mb-6">
-                        <a href={profile.socials.instagram} className="text-pink-600 hover:text-pink-700">
-                            <Instagram size={24} />
+                    <div className="flex justify-center gap-6 mb-8">
+                        <a href={profile.socials.instagram} className="text-pink-500 hover:text-pink-600">
+                            <Instagram size={28} />
                         </a>
-                        <a href={profile.socials.website} className="text-pink-600 hover:text-pink-700">
-                            <Globe size={24} />
+                        <a href={profile.socials.website} className="text-pink-500 hover:text-pink-600">
+                            <Globe size={28} />
                         </a>
-                        <a href={`mailto:${profile.socials.email}`} className="text-pink-600 hover:text-pink-700">
-                            <Mail size={24} />
+                        <a href={`mailto:${profile.socials.email}`} className="text-pink-500 hover:text-pink-600">
+                            <Mail size={28} />
                         </a>
                     </div>
                 </div>
