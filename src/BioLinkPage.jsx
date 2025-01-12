@@ -50,7 +50,7 @@ const BioLinkPage = () => {
                     <div className="w-32 h-32 rounded-full mx-auto mb-4 bg-pink-100 border-4 border-pink-200 flex items-center justify-center">
                         <span className="text-2xl">{profile.name}</span>
                     </div>
-                    <h1 className="text-3xl font-bold text-gray-900 mb-2">MHTECH</h1>
+                    <h1 className="text-3xl font-bold text-gray-900 mb-2">LEOTECH</h1>
                     <p className="text-xl text-gray-700 mb-6">{profile.bio}</p>
                     
                     <div className="flex justify-center gap-6 mb-8">
