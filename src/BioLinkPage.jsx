@@ -21,9 +21,9 @@ const BioLinkPage = () => {
         bio: "تکنولوژی برای همه",
         links: [
             {
-                title: "جدیدترین مجموعه",
+                title: "دانلود V2RayNG برای اندروید",
                 url: "#",
-                description: "خرید جدیدترین محصولات"
+                description: "آخرین ورژن V2RayNG"
             },
             {
                 title: "رزرو مشاوره",
