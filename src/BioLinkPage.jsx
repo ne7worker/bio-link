@@ -5,7 +5,6 @@ const BioLinkPage = () => {
   const profile = {
     name: "نام شما",
     bio: "توضیحات بیوگرافی شما",
-    avatar: "https://github.com/ne7worker/bio-link/blob/master/avatar.png",
     links: [
       {
         title: "جدیدترین مجموعه",
