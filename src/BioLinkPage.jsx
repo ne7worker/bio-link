@@ -5,7 +5,7 @@ const BioLinkPage = () => {
   const profile = {
     name: "نام شما",
     bio: "توضیحات بیوگرافی شما",
-    avatar: "/api/placeholder/120/120",
+    avatar: "https://github.com/ne7worker/bio-link/blob/master/avatar.png",
     links: [
       {
         title: "جدیدترین مجموعه",
@@ -26,8 +26,7 @@ const BioLinkPage = () => {
     socials: {
       instagram: "https://instagram.com/youraccount",
       website: "https://yourwebsite.com",
-      email: "hello@yourdomain.com"
-    }
+      email: "ne7worker@gmail.com"
   };
 
   return (
