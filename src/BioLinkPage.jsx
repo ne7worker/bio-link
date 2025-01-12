@@ -33,7 +33,7 @@ const BioLinkPage = () => {
             {
                 title: "دانلود V2RayN برای ویندوز",
                 url: "https://github.com/2dust/v2rayN/releases/download/7.5.6/v2rayN-windows-64-SelfContained-With-Core.zip",
-                description: "برنامه VPN برای وبندوز"
+                description: "برنامه VPN برای ویندوز"
             },
             {
                 title: "لینک اشتراک VPN رایگان",
