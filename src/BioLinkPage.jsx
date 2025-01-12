@@ -22,18 +22,23 @@ const BioLinkPage = () => {
         links: [
             {
                 title: "دانلود V2RayNG برای اندروید",
-                url: "#",
-                description: "آخرین ورژن V2RayNG"
+                url: "https://github.com/2dust/v2rayNG/releases/download/1.9.28/v2rayNG_1.9.28_universal.apk",
+                description: "برنامه VPN برای آیفون و مک"
             },
             {
-                title: "رزرو مشاوره",
-                url: "#",
-                description: "رزرو جلسه مشاوره رایگان"
+                title: "دانلود V2Box برای iOS",
+                url: "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+                description: "برنامه VPN برای آیفون و مک"
             },
             {
-                title: "عضویت در خبرنامه",
-                url: "#",
-                description: "دریافت بروزرسانی‌های هفتگی و پیشنهادات ویژه"
+                title: "دانلود V2RayN برای ویندوز",
+                url: "https://github.com/2dust/v2rayN/releases/download/7.5.6/v2rayN-windows-64-SelfContained-With-Core.zip",
+                description: "برنامه VPN برای وبندوز"
+            },
+            {
+                title: "لینک اشتراک VPN رایگان",
+                url: "https://begzar.pages.dev/sub/6231c67b-b7e8-41f3-9112-e1ccdc40123d?app=xray#BPB-Full-Normal",
+                description: "این لینک باید داخل برنامه ها ایمپورت بشه"
             }
         ],
         socials: {
