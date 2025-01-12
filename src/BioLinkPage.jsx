@@ -23,8 +23,8 @@ const BioLinkPage = () => {
       }
     ],
     socials: {
-      instagram: "https://instagram.com/youraccount",
-      website: "https://yourwebsite.com",
+      instagram: "https://instagram.com/_mhtech_",
+      website: "https://ne7worker.github.io/bio-link/",
       email: "ne7worker@gmail.com"
   };
 
